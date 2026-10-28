@@ -1,0 +1,600 @@
+[12:21:17] 
+Successfully packaged [3-Verify Instance Status]
+
+
+[12:21:19] 
+Successfully downloaded script to: c:\migrations\scripts\history\08d0b701-4254-4262-9682-da7f708ad8b7-10-28-2026-12.21.18PM
+
+[12:21:25] 
+Successfully verified script package contents
+
+[12:21:32] 
+
+ *Login to Migration factory*
+
+
+[12:21:33] 
+Migration Factory : You have successfully logged in
+ 
+ *** Getting Server List ****
+
+
+[12:21:35] 
+### Servers in Target Account: 525583648997, region: us-east-2 ###
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+ 
+ *****************************
+ ** Verify instance status **
+ *****************************
+
+
+[12:21:45] 
+******************************
+ * Getting Target Instance Id *
+ ******************************
+ 
+ Account: 525583648997, Region: us-east-2
+ ERROR: target instance does not exist for server: EC2AMAZ-E1L3JOF, please wait for a few minutes
+ ERROR: target instance does not exist for server: Linux-Test-Server, please wait for a few minutes
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ ----------------------------------------------------------------
+ -  The following source servers do not have a target instance  -
+ ----------------------------------------------------------------
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+
+
+[12:21:47] 
+
+ **************************************************
+ * Instances booting up - auto retry in 2 minutes *
+ **************************************************
+ 
+
+
+[12:23:54] 
+133.0058000087738 seconds elapsed
+ 
+ ******************************
+ * Getting Target Instance Id *
+ ******************************
+ 
+ Account: 525583648997, Region: us-east-2
+ ERROR: target instance does not exist for server: EC2AMAZ-E1L3JOF, please wait for a few minutes
+ ERROR: target instance does not exist for server: Linux-Test-Server, please wait for a few minutes
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ ----------------------------------------------------------------
+ -  The following source servers do not have a target instance  -
+ ----------------------------------------------------------------
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+
+
+[12:23:58] 
+
+ **************************************************
+ * Instances booting up - auto retry in 2 minutes *
+ **************************************************
+ 
+
+
+[12:26:04] 
+263.2473909854889 seconds elapsed
+ 
+ ******************************
+ * Getting Target Instance Id *
+ ******************************
+ 
+ Account: 525583648997, Region: us-east-2
+ ERROR: target instance does not exist for server: EC2AMAZ-E1L3JOF, please wait for a few minutes
+ ERROR: target instance does not exist for server: Linux-Test-Server, please wait for a few minutes
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ ----------------------------------------------------------------
+ -  The following source servers do not have a target instance  -
+ ----------------------------------------------------------------
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+
+
+[12:26:08] 
+
+ **************************************************
+ * Instances booting up - auto retry in 2 minutes *
+ **************************************************
+ 
+
+
+[12:28:14] 
+392.80829787254333 seconds elapsed
+ 
+ ******************************
+ * Getting Target Instance Id *
+ ******************************
+ 
+ Account: 525583648997, Region: us-east-2
+ ERROR: target instance does not exist for server: EC2AMAZ-E1L3JOF, please wait for a few minutes
+ ERROR: target instance does not exist for server: Linux-Test-Server, please wait for a few minutes
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ ----------------------------------------------------------------
+ -  The following source servers do not have a target instance  -
+ ----------------------------------------------------------------
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+
+
+[12:28:17] 
+
+ **************************************************
+ * Instances booting up - auto retry in 2 minutes *
+ **************************************************
+ 
+
+
+[12:30:24] 
+522.6848318576813 seconds elapsed
+ 
+ ******************************
+ * Getting Target Instance Id *
+ ******************************
+ 
+ Account: 525583648997, Region: us-east-2
+ ERROR: target instance does not exist for server: EC2AMAZ-E1L3JOF, please wait for a few minutes
+ ERROR: target instance does not exist for server: Linux-Test-Server, please wait for a few minutes
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ ----------------------------------------------------------------
+ -  The following source servers do not have a target instance  -
+ ----------------------------------------------------------------
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+
+
+[12:30:27] 
+
+ **************************************************
+ * Instances booting up - auto retry in 2 minutes *
+ **************************************************
+ 
+
+
+[12:32:34] 
+652.9266948699951 seconds elapsed
+ 
+ ******************************
+ * Getting Target Instance Id *
+ ******************************
+ 
+ Account: 525583648997, Region: us-east-2
+ ERROR: target instance does not exist for server: EC2AMAZ-E1L3JOF, please wait for a few minutes
+ ERROR: target instance does not exist for server: Linux-Test-Server, please wait for a few minutes
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ ----------------------------------------------------------------
+ -  The following source servers do not have a target instance  -
+ ----------------------------------------------------------------
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+
+
+[12:32:37] 
+
+ **************************************************
+ * Instances booting up - auto retry in 2 minutes *
+ **************************************************
+ 
+
+
+[12:34:44] 
+782.6443729400635 seconds elapsed
+ 
+ ******************************
+ * Getting Target Instance Id *
+ ******************************
+ 
+ Account: 525583648997, Region: us-east-2
+ ERROR: target instance does not exist for server: EC2AMAZ-E1L3JOF, please wait for a few minutes
+ ERROR: target instance does not exist for server: Linux-Test-Server, please wait for a few minutes
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ ----------------------------------------------------------------
+ -  The following source servers do not have a target instance  -
+ ----------------------------------------------------------------
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+
+
+[12:34:46] 
+
+ **************************************************
+ * Instances booting up - auto retry in 2 minutes *
+ **************************************************
+ 
+
+
+[12:36:54] 
+912.4636559486389 seconds elapsed
+ 
+ ******************************
+ * Getting Target Instance Id *
+ ******************************
+ 
+ Account: 525583648997, Region: us-east-2
+ ERROR: target instance does not exist for server: EC2AMAZ-E1L3JOF, please wait for a few minutes
+ ERROR: target instance does not exist for server: Linux-Test-Server, please wait for a few minutes
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ ----------------------------------------------------------------
+ -  The following source servers do not have a target instance  -
+ ----------------------------------------------------------------
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+
+
+[12:36:56] 
+
+ **************************************************
+ * Instances booting up - auto retry in 2 minutes *
+ **************************************************
+ 
+
+
+[12:39:03] 
+1042.044392824173 seconds elapsed
+ 
+ ******************************
+ * Getting Target Instance Id *
+ ******************************
+ 
+ Account: 525583648997, Region: us-east-2
+ ERROR: target instance does not exist for server: EC2AMAZ-E1L3JOF, please wait for a few minutes
+ ERROR: target instance does not exist for server: Linux-Test-Server, please wait for a few minutes
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ ----------------------------------------------------------------
+ -  The following source servers do not have a target instance  -
+ ----------------------------------------------------------------
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+
+
+[12:39:07] 
+
+ **************************************************
+ * Instances booting up - auto retry in 2 minutes *
+ **************************************************
+ 
+
+
+[12:41:14] 
+1172.2427868843079 seconds elapsed
+ 
+ ******************************
+ * Getting Target Instance Id *
+ ******************************
+ 
+ Account: 525583648997, Region: us-east-2
+ ERROR: target instance does not exist for server: EC2AMAZ-E1L3JOF, please wait for a few minutes
+ ERROR: target instance does not exist for server: Linux-Test-Server, please wait for a few minutes
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ ----------------------------------------------------------------
+ -  The following source servers do not have a target instance  -
+ ----------------------------------------------------------------
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+
+
+[12:41:16] 
+
+ **************************************************
+ * Instances booting up - auto retry in 2 minutes *
+ **************************************************
+ 
+
+
+[12:43:23] 
+1301.8809819221497 seconds elapsed
+ 
+ ******************************
+ * Getting Target Instance Id *
+ ******************************
+ 
+ Account: 525583648997, Region: us-east-2
+ ERROR: target instance does not exist for server: EC2AMAZ-E1L3JOF, please wait for a few minutes
+ ERROR: target instance does not exist for server: Linux-Test-Server, please wait for a few minutes
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ ----------------------------------------------------------------
+ -  The following source servers do not have a target instance  -
+ ----------------------------------------------------------------
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+
+
+[12:43:26] 
+
+ **************************************************
+ * Instances booting up - auto retry in 2 minutes *
+ **************************************************
+ 
+
+
+[12:45:33] 
+1431.977413892746 seconds elapsed
+ 
+ ******************************
+ * Getting Target Instance Id *
+ ******************************
+ 
+ Account: 525583648997, Region: us-east-2
+ ERROR: target instance does not exist for server: EC2AMAZ-E1L3JOF, please wait for a few minutes
+ ERROR: target instance does not exist for server: Linux-Test-Server, please wait for a few minutes
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ ----------------------------------------------------------------
+ -  The following source servers do not have a target instance  -
+ ----------------------------------------------------------------
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+
+
+[12:45:36] 
+
+ **************************************************
+ * Instances booting up - auto retry in 2 minutes *
+ **************************************************
+ 
+
+
+[12:47:43] 
+1561.8965759277344 seconds elapsed
+ 
+ ******************************
+ * Getting Target Instance Id *
+ ******************************
+ 
+ Account: 525583648997, Region: us-east-2
+ ERROR: target instance does not exist for server: EC2AMAZ-E1L3JOF, please wait for a few minutes
+ ERROR: target instance does not exist for server: Linux-Test-Server, please wait for a few minutes
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ ----------------------------------------------------------------
+ -  The following source servers do not have a target instance  -
+ ----------------------------------------------------------------
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+
+
+[12:47:47] 
+
+ **************************************************
+ * Instances booting up - auto retry in 2 minutes *
+ **************************************************
+ 
+
+
+[12:49:53] 
+1691.7590379714966 seconds elapsed
+ 
+ ******************************
+ * Getting Target Instance Id *
+ ******************************
+ 
+ Account: 525583648997, Region: us-east-2
+ ERROR: target instance does not exist for server: EC2AMAZ-E1L3JOF, please wait for a few minutes
+ ERROR: target instance does not exist for server: Linux-Test-Server, please wait for a few minutes
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ ----------------------------------------------------------------
+ -  The following source servers do not have a target instance  -
+ ----------------------------------------------------------------
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+
+
+[12:49:56] 
+
+ **************************************************
+ * Instances booting up - auto retry in 2 minutes *
+ **************************************************
+ 
+
+
+[12:52:04] 
+1822.436889886856 seconds elapsed
+ 
+ ******************************
+ * Getting Target Instance Id *
+ ******************************
+ 
+ Account: 525583648997, Region: us-east-2
+ ERROR: target instance does not exist for server: EC2AMAZ-E1L3JOF, please wait for a few minutes
+ ERROR: target instance does not exist for server: Linux-Test-Server, please wait for a few minutes
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ ----------------------------------------------------------------
+ -  The following source servers do not have a target instance  -
+ ----------------------------------------------------------------
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+
+
+[12:52:06] 
+
+ **************************************************
+ * Instances booting up - auto retry in 2 minutes *
+ **************************************************
+ 
+
+
+[12:54:13] 
+1952.2587180137634 seconds elapsed
+ 
+ ******************************
+ * Getting Target Instance Id *
+ ******************************
+ 
+ Account: 525583648997, Region: us-east-2
+ ERROR: target instance does not exist for server: EC2AMAZ-E1L3JOF, please wait for a few minutes
+ ERROR: target instance does not exist for server: Linux-Test-Server, please wait for a few minutes
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ ----------------------------------------------------------------
+ -  The following source servers do not have a target instance  -
+ ----------------------------------------------------------------
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+
+
+[12:54:17] 
+
+ **************************************************
+ * Instances booting up - auto retry in 2 minutes *
+ **************************************************
+ 
+
+
+[12:56:23] 
+2082.2178449630737 seconds elapsed
+ 
+ ******************************
+ * Getting Target Instance Id *
+ ******************************
+ 
+ Account: 525583648997, Region: us-east-2
+ ERROR: target instance does not exist for server: EC2AMAZ-E1L3JOF, please wait for a few minutes
+ ERROR: target instance does not exist for server: Linux-Test-Server, please wait for a few minutes
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ ----------------------------------------------------------------
+ -  The following source servers do not have a target instance  -
+ ----------------------------------------------------------------
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+
+
+[12:56:27] 
+
+ **************************************************
+ * Instances booting up - auto retry in 2 minutes *
+ **************************************************
+ 
+
+
+[12:58:33] 
+2212.836963891983 seconds elapsed
+ 
+ ******************************
+ * Getting Target Instance Id *
+ ******************************
+ 
+ Account: 525583648997, Region: us-east-2
+ ERROR: target instance does not exist for server: EC2AMAZ-E1L3JOF, please wait for a few minutes
+ ERROR: target instance does not exist for server: Linux-Test-Server, please wait for a few minutes
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ ----------------------------------------------------------------
+ -  The following source servers do not have a target instance  -
+ ----------------------------------------------------------------
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+
+
+[12:58:36] 
+
+ **************************************************
+ * Instances booting up - auto retry in 2 minutes *
+ **************************************************
+ 
+
+
+[13:00:44] 
+2342.436134815216 seconds elapsed
+ 
+ ******************************
+ * Getting Target Instance Id *
+ ******************************
+ 
+ Account: 525583648997, Region: us-east-2
+ ERROR: target instance does not exist for server: EC2AMAZ-E1L3JOF, please wait for a few minutes
+ ERROR: target instance does not exist for server: Linux-Test-Server, please wait for a few minutes
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ ----------------------------------------------------------------
+ -  The following source servers do not have a target instance  -
+ ----------------------------------------------------------------
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+
+
+[13:00:47] 
+
+ **************************************************
+ * Instances booting up - auto retry in 2 minutes *
+ **************************************************
+ 
+
+
