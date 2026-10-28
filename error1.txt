@@ -1,0 +1,120 @@
+[02:45:28] 
+Successfully packaged [0-Check MGN Prerequisites]
+
+
+[02:45:33] 
+Successfully downloaded script to: c:\migrations\scripts\history\f2e2b40c-28ed-4e9f-b087-3b6ca11f6781-10-28-2026-02.45.32AM
+
+[02:45:39] 
+Successfully verified script package contents
+
+[02:45:48] 
+
+ Login to Migration factory
+ 
+
+
+[02:45:51] 
+Migration Factory : You have successfully logged in
+ 
+ ****************************
+ *** Getting Server List ****
+ ****************************
+ 
+ ### Servers in Target Account: 525583648997, region: us-east-2 ###
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+ 
+ *********************************************
+ *Checking Pre-requisites for Windows servers*
+ *********************************************
+ 
+
+
+[02:45:53] 
+
+ Waiting for all threads to finish...
+ 
+
+
+[02:45:56] 
+
+ *Checking Pre-requisites for Linux servers*
+ 
+ Waiting for all checks to finish...
+ 
+
+
+[02:45:57] 
+
+ ********************************************
+ ***** Final results for all servers *****
+ ********************************************
+ 
+ 
+ ---------------------------------------------------------
+ -- Windows Server result for ip-10-0-151-12.ap-south-1.compute.internal --
+ ---------------------------------------------------------
+ 
+ SOME TESTS FAILED
+ WinRM Accessible: Pass
+ Powershell test script: b'[ip-10-0-151-12.ap-south-1.compute.internal] Connecting to remote server ip-10-0-151-12.ap-south-1.compute.internal \r\nfailed with the following error message : Access is denied. For more information, see the about_Remote_Troubleshooting \r\nHelp topic.\r\n    + CategoryInfo          : OpenError: (ip-10-0-151-12....ompute.internal:String) [], PSRemotingTransportException\r\n    + FullyQualifiedErrorId : AccessDenied,PSSessionStateBroken\r\n'
+ 
+ 
+ 
+ ------------------------------------------------------------
+ -- Windows server passed all Pre-requisites checks --
+ ------------------------------------------------------------
+  [x]   No servers passed all checks.
+ 
+ 
+ -------------------------------------------------------------
+ -- Windows servers failed one or more pre-requisites checks --
+ -------------------------------------------------------------
+ 
+
+
+[02:46:01] 
+     ip-10-0-151-12.ap-south-1.compute.internal : Pre-requisites checks : Failed - []
+ 
+ 
+ ---------------------------------------------------------
+ -- Linux Server result for ip-10-0-159-225.ap-south-1.compute.internal --
+ ---------------------------------------------------------
+ 
+ SOME TESTS FAILED
+ SSH 22 to source server: Pass
+ SUDO permission: Pass
+ MGNEndpoint-443: Pass
+ S3Endpoint-443: Pass
+  TCP 1500 to MGN Rep Server: Pass
+ 2.0 GB / FreeSpace: Pass
+ 0.5 GB /tmp FreeSpace: Pass
+  [x] DHCLIENT Package: Fail
+ 
+ 
+ 
+ ------------------------------------------------------------
+ -- Linux server passed all Pre-requisites checks --
+ ------------------------------------------------------------
+  [x]   No servers passed all checks.
+ 
+ 
+ -------------------------------------------------------------
+ -- Linux servers failed one or more pre-requisites checks --
+ -------------------------------------------------------------
+ 
+
+
+[02:46:02] 
+     ip-10-0-159-225.ap-south-1.compute.internal : Pre-requisites checks : Failed - ['DHCLIENT Package: sudo: dhclient: command not found\n']
+ 
+ A number of servers failed pre-requisites checks, see logs for details.
+
+
+[02:46:02] 
+
+ 
+ JOB_FAILED
+
