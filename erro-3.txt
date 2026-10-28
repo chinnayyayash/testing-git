@@ -1,0 +1,134 @@
+[07:06:36] 
+Successfully packaged [1-Install MGN Agents]
+
+
+[07:06:38] 
+Successfully downloaded script to: c:\migrations\scripts\history\7dec46a0-4efe-4c5d-bdf6-779f884ee843-10-28-2026-07.06.36AM
+
+[07:06:43] 
+Successfully verified script package contents
+
+[07:06:50] 
+Factory region: ap-south-1
+ 
+ **************************************************
+ ************Login to Migration factory************
+ **************************************************
+
+
+[07:06:52] 
+Migration Factory : You have successfully logged in
+ 
+ **************************************************
+ ***************Getting Server List****************
+ **************************************************
+
+
+[07:06:53] 
+### Servers in Target Account: 525583648997, region: us-east-2 ###
+ ip-10-0-151-12.ap-south-1.compute.internal
+ ip-10-0-159-225.ap-south-1.compute.internal
+ 
+ **************************************************
+ **************AWS MGN install agents**************
+ **************************************************
+ 
+ ######################################################
+ #### In Account: 525583648997 , region: us-east-2 ####
+ ######################################################
+ Using temporary AWS credentials for MGN agent installation.
+
+
+[07:06:57] 
+Queued task for ip-10-0-151-12.ap-south-1.compute.internal
+ Queued task for ip-10-0-159-225.ap-south-1.compute.internal
+
+
+[07:06:58] 
+Task result returned for ip-10-0-151-12.ap-south-1.compute.internal as SUCCESSFUL, detailed logs to follow.
+
+
+[07:10:46] 
+Task result returned for ip-10-0-159-225.ap-south-1.compute.internal as SUCCESSFUL, detailed logs to follow.
+
+
+[07:10:47] 
+**************************************************
+ 
+           RESULTS START: ip-10-0-151-12.ap-south-1.compute.internal
+ 
+ **************************************************
+ Installing MGN Agent on :  ip-10-0-151-12.ap-south-1.compute.internal
+ INFO: Using local account to connect: ip-10-0-151-12\Administrator
+ Agent already installed for machine: ip-10-0-151-12.ap-south-1.compute.internal , please reinstall manually if required
+ 
+ **************************************************
+ 
+           RESULTS END: ip-10-0-151-12.ap-south-1.compute.internal
+ 
+ **************************************************
+ **************************************************
+ 
+           RESULTS START: ip-10-0-159-225.ap-south-1.compute.internal
+ 
+ **************************************************
+ Installing Application Migration Service Agent on:  ip-10-0-159-225.ap-south-1.compute.internal
+ 
+ --2026-10-28 07:06:57--  https://aws-application-migration-service-us-east-2.s3.amazonaws.com/latest/linux/aws-replication-installer-init.py
+ Resolving aws-application-migration-service-us-east-2.s3.amazonaws.com (aws-application-migration-service-us-east-2.s3.amazonaws.com)... 3.5.133.113, 3.5.88.59, 3.5.92.72, ...
+ Connecting to aws-application-migration-service-us-east-2.s3.amazonaws.com (aws-application-migration-service-us-east-2.s3.amazonaws.com)|3.5.133.113|:443... connected.
+ HTTP request sent, awaiting response... 200 OK
+ Length: 37861 (37K) [binary/octet-stream]
+ Saving to: �./aws-replication-installer-init.py�
+ 
+      0K .......... .......... .......... ......               100%  176K=0.2s
+ 
+ 2026-10-28 07:06:58 (176 KB/s) - �./aws-replication-installer-init.py� saved [37861/37861]
+ 
+ 
+ Executing sudo python3 ./aws-replication-installer-init.py --region us-east-2 --aws-access-key-id  ASIAXUXZ2BDSSZYBEJTP --aws-secret-access-key ***** --aws-session-token ***** --no-prompt
+ The installation of the AWS Replication Agent has started.
+ Identifying volumes for replication.
+ Identified volume for replication: /dev/nvme0n1 of size 8 GiB
+ All volumes for replication were successfully identified.
+ Downloading the AWS Replication Agent onto the source server... 
+ Finished.
+ Installing the AWS Replication Agent onto the source server... 
+ Finished.
+ Syncing the source server with the Application Migration Service Console... 
+ Finished.
+ The following is the source server ID: s-4cfb50b0d9fd52d98.
+ You now have 2 active source servers out of a total quota of 150.
+ Learn more about increasing source servers limit at https://docs.aws.amazon.com/mgn/latest/ug/MGN-service-limits.html
+ The AWS Replication Agent was successfully installed.
+ 
+ ***** Agent installation completed successfully on ip-10-0-159-225.ap-south-1.compute.internal*****
+ **************************************************
+ 
+           RESULTS END: ip-10-0-159-225.ap-south-1.compute.internal
+ 
+ **************************************************
+ All servers task 'AWS MGN install agents' completed. 0 failures, 2 successful, total attempted 2. Check logs for details.
+ 
+ **************************************************
+ Checking Agent install results within MGN Console*
+ **************************************************
+ 
+
+
+[07:10:58] 
+-- FAILED: MGN Agent not found in MGN console for server: ip-10-0-151-12.ap-south-1.compute.internal
+ 
+
+
+[07:10:59] 
+-- SUCCESS: MGN Agent verified in MGN console for server: ip-10-0-159-225.ap-south-1.compute.internal
+ 
+ 1 server agents could not be validated with the MGN console. Check log for details.
+
+
+[07:11:00] 
+
+ 
+ JOB_FAILED
+
