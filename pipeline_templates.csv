@@ -1,0 +1,2 @@
+pipeline_template_id,pipeline_template_description,_history,pipeline_template_name,deletion_protection
+1,Facilitates server replications via Application Migration Service (MGN) for the selected wave,"{""createdBy"":{""userRef"":""[system]"",""email"":""[system]""},""createdTimestamp"":""2026-10-12T09:29:38.146826+00:00""}",Rehost with Application Migration Service (MGN),true
